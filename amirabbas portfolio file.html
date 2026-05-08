@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amir Abbas | AI Automation Engineer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body { background-color: #050505; color: #e5e7eb; }
+        .node-gradient {
+            background: linear-gradient(90deg, #ff4b2b 0%, #ff416c 100%);
+        }
+        .circuit-bg {
+            background-image: radial-gradient(#1a1a1a 1px, transparent 1px);
+            background-size: 30px 30px;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+    </style>
+</head>
+<body class="circuit-bg font-sans">
+
+    <!-- Header / Hero Section -->
+    <header class="min-h-screen flex flex-col justify-center items-center text-center px-4">
+        <div class="mb-6 p-2 rounded-full border-2 border-orange-500 animate-pulse">
+            <img src="https://via.placeholder.com/150" alt="Amir Abbas" class="w-32 h-32 rounded-full object-cover">
+        </div>
+        <h1 class="text-5xl md:text-7xl font-bold tracking-tighter mb-4">
+            AMIR <span class="text-orange-500">ABBAS</span>
+        </h1>
+        <p class="text-xl md:text-2xl text-gray-400 max-w-2xl">
+            AI Automation Engineer & Workflow Architect. <br>
+            <span class="text-white">Connecting the dots with n8n.</span>
+        </p>
+        <div class="mt-10 flex gap-4">
+            <a href="#work" class="node-gradient px-8 py-3 rounded-full font-bold hover:scale-105 transition-transform">View Work</a>
+            <a href="https://github.com/yourusername" class="bg-white text-black px-8 py-3 rounded-full font-bold hover:bg-gray-200 transition">GitHub</a>
+        </div>
+    </header>
+
+    <!-- Tech Stack / Nodes -->
+    <section class="py-20 px-6 max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold mb-12 text-center">My Automation Stack</h2>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+            <div class="glass-card p-6 rounded-2xl text-center">
+                <i class="fas fa-project-diagram text-orange-500 text-4xl mb-4"></i>
+                <h3 class="font-bold">n8n</h3>
+                <p class="text-sm text-gray-500">Workflow Logic</p>
+            </div>
+            <div class="glass-card p-6 rounded-2xl text-center">
+                <i class="fas fa-robot text-blue-400 text-4xl mb-4"></i>
+                <h3 class="font-bold">OpenAI / Claude</h3>
+                <p class="text-sm text-gray-500">LLM Integration</p>
+            </div>
+            <div class="glass-card p-6 rounded-2xl text-center">
+                <i class="fas fa-database text-green-400 text-4xl mb-4"></i>
+                <h3 class="font-bold">Supabase / SQL</h3>
+                <p class="text-sm text-gray-500">Data Management</p>
+            </div>
+            <div class="glass-card p-6 rounded-2xl text-center">
+                <i class="fab fa-python text-yellow-400 text-4xl mb-4"></i>
+                <h3 class="font-bold">Python</h3>
+                <p class="text-sm text-gray-500">Custom Scripting</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience / Work Section -->
+    <section id="work" class="py-20 px-6 max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold mb-12">Featured Automations</h2>
+        
+        <div class="space-y-8">
+            <!-- Project 1 -->
+            <div class="glass-card p-8 rounded-3xl flex flex-col md:flex-row gap-8 items-center">
+                <div class="w-full md:w-1/2">
+                    <img src="https://raw.githubusercontent.com/n8n-io/n8n/master/assets/n8n-logo.png" class="rounded-xl opacity-80 hover:opacity-100 transition" alt="Workflow Demo">
+                </div>
+                <div class="w-full md:w-1/2">
+                    <span class="text-orange-500 font-mono text-sm">#n8n #OpenAI #Slack</span>
+                    <h3 class="text-2xl font-bold mt-2">Auto-Customer Support Agent</h3>
+                    <p class="text-gray-400 mt-4">
+                        Built a fully autonomous support system that categorizes tickets, summarizes emails using GPT-4, and drafts replies in Slack for approval.
+                    </p>
+                    <button class="mt-6 text-white border-b border-orange-500 pb-1 hover:text-orange-500 transition">View Workflow Details →</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-10 text-center text-gray-600 text-sm border-t border-gray-900">
+        <p>© 2026 Amir Abbas. Built with code and caffeine.</p>
+    </footer>
+
+</body>
+</html>
